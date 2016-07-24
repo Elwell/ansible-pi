@@ -1,0 +1,9 @@
+---
+# Ansible playbook for raspberry pi nodes
+# Andrew Elwell, 2016-07-24 with substantial ideas lifted from various github examples
+- hosts: pies
+  roles:
+    - baseconfig
+    #- infobeamer
+  become: yes
+...
